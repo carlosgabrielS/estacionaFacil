@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Estacionamento</string>
+    <string name="close_drawer">fechar</string>
+<<<<<<< HEAD
+    <string name="open_drawer">Abrir</string>
+    <string name="ip">10.107.134.13</string>
+=======
+    <string name="ip_api">10.107.134.10</string>
+>>>>>>> 495dbd1a70bc07ab0f1d9a23a1f927c94f033468
+</resources>

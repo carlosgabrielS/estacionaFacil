@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".CadastroMensalista">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textview_titulo_saida"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="Cadastrar Mensalista"
+            android:textSize="25sp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/colorBlack"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="32dp">
+
+            <TextView
+                android:id="@+id/textview_nome_mensalista"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nome:" />
+
+            <EditText
+                android:id="@+id/txt_nome_mensalista"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="Digite o Nome"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/textview_telefone_mensalista"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Telefone:" />
+
+            <EditText
+                android:id="@+id/txt_telefone_mensalista"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="Digite o Telefone"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/textview_cpf_mensalista"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CPF:" />
+
+            <EditText
+                android:id="@+id/txt_cpf_mensalista"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="Digite o CPF"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/textview_email_mensalista"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email:" />
+
+            <EditText
+                android:id="@+id/txt_email_mensalista"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="Digite o Email"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/textview_valor_mensal_mensalista"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Valor Mensal:" />
+
+            <EditText
+                android:id="@+id/txt_valor_mensal_mensalista"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="Digite o Email"
+                android:inputType="text" />
+
+
+            <TextView
+                android:id="@+id/textview_endereco_mensalista"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:text="Endereço:" />
+
+
+            <TextView
+                android:id="@+id/textview_cep_mensalista"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CEP:" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/txt_cep_mensalista"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7"
+                    android:maxLength="8"
+                    android:layout_marginBottom="10dp"
+                    android:hint="Digite o CEP"
+                    android:inputType="text" />
+                <Button
+                    android:id="@+id/btn_endereco_mensalista"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight="1"
+                    android:background="@mipmap/ic_carregar" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone"
+                android:orientation="vertical"
+                android:id="@+id/lista_endereco">
+
+                <TextView
+                    android:id="@+id/textview_numero_mensalista"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Numero:" />
+
+                <EditText
+                    android:id="@+id/txt_numero_mensalista"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:hint="Digite o Número"
+                    android:inputType="text" />
+
+                <TextView
+                    android:id="@+id/textview_complemento_mensalista"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Complemento:" />
+
+                <EditText
+                    android:id="@+id/txt_complemento_mensalista"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:hint="Digite o Complemento"
+                    android:inputType="text" />
+
+                <TextView
+                    android:id="@+id/textview_logradouro_mensalista"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Logradouro:" />
+
+                <EditText
+                    android:id="@+id/txt_logradouro_mensalista"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:inputType="text" />
+
+                <TextView
+                    android:id="@+id/textview_bairro_mensalista"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bairro:" />
+
+                <EditText
+                    android:id="@+id/txt_bairro_mensalista"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:inputType="text" />
+
+                <TextView
+                    android:id="@+id/textview_cidade_mensalista"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cidade:" />
+
+                <EditText
+                    android:id="@+id/txt_cidade_mensalista"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:inputType="text" />
+
+                <TextView
+                    android:id="@+id/textview_uf_mensalista"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="UF:" />
+
+                <EditText
+                    android:id="@+id/txt_uf_mensalista"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:inputType="text" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_cadastro_mensalista"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:background="@color/colorGray"
+                android:text="Cadastrar Mensalista" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:title="Movimentações"
+            android:id="@+id/menu_entrada"
+            android:icon="@drawable/ic_entrada"/>
+        <item android:title="Registrar Saída"
+            android:id="@+id/menu_saida"
+            android:icon="@drawable/ic_saida"/>
+    </group>
+
+    <item android:title="Mensalistas">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item android:title="Cadastrar Mensalista"
+                    android:id="@+id/cadastrar_mensalista"
+                    android:icon="@drawable/ic_mensalista"></item>
+                <item android:title="Receber Mensalidade"
+                    android:id="@+id/receber_mensalidade"
+                    android:icon="@drawable/ic_receber_mensalidade"></item>
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Precos">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item android:title="Cadastrar Preço"
+                    android:id="@+id/cadastrar_preco"
+                    android:icon="@drawable/ic_receber_mensalidade"></item>
+            </group>
+        </menu>
+    </item>
+</menu>

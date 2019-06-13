@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CarregarMovimentacao">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textview_titulo_saida"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="Fechar Movimentação"
+            android:textSize="25sp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/colorBlack"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="32dp">
+
+
+            <TextView
+                android:id="@+id/textview_placa_saida"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Placa:" />
+
+            <EditText
+                android:id="@+id/txt_placa_saida"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/colorBlack"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/textview_modelo_saida"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Modelo:"
+                />
+
+            <EditText
+                android:id="@+id/txt_modelo_saida"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/colorBlack"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textview_horario_entrada"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Horario de Entrada:"
+                />
+
+            <EditText
+                android:id="@+id/txt_horario_entrada"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/colorBlack"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textview_horario_saida"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Horario de Saida:"/>
+
+            <EditText
+                android:id="@+id/txt_horario_saida"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/colorBlack"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textview_tipo_saida"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tipo de Veiulo:"/>
+
+            <EditText
+                android:id="@+id/txt_tipo_saida"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:textColor="@color/colorBlack"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textview_tempo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tempo de Permanência:"/>
+
+            <EditText
+                android:id="@+id/txt_tempo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:textColor="@color/colorBlack"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textview_valor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Valor Pago:"/>
+
+            <EditText
+                android:id="@+id/txt_valor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:textColor="@color/colorBlack"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/btn_fechar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorGray"
+                android:text="Fechar Movimentação"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

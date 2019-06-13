@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    android:paddingTop="30dp">
+
+    <TextView
+        android:id="@+id/textview_titulo_preco"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="Cadastro Preço"
+        android:textSize="25sp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/colorBlack"/>
+
+
+    <TextView
+        android:id="@+id/textview_primeira_hora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Primeira hora:"/>
+
+    <EditText
+        android:id="@+id/txt_primeira_hora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite o valor da primeira hora"
+        android:inputType="text"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/textview_demais_horas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Demais horas:"/>
+
+    <EditText
+        android:id="@+id/txt_demais_horas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite o valor das demais horas"
+        android:inputType="text"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/textview_tolerancia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tolerância:"/>
+
+    <EditText
+        android:id="@+id/txt_tolerancia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite o valor das demais horas"
+        android:inputType="text"
+        android:layout_marginBottom="10dp"/>
+
+
+
+
+    <Button
+        android:id="@+id/btn_salvar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorGray"
+        android:text="Salvar Preço"
+        />
+
+
+
+</LinearLayout>
